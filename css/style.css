@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+
+nav ul{
+    padding: 0;
+    display: inline;
+}
+
+nav ul li{
+    font-size: larger;
+    font-family: 'Roboto:wght@100', sans-serif;
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 30px;
+    background-color: #1D1D1D;
+}
+
+main{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contener ul li{
+    list-style-type: circle;
+    margin: 15px;
+}
+
+.contener ul li a{
+    font-family: 'Roboto:wght@100', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Roboto:wght@100', sans-serif;
+    color: #1D1D1D;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 40px;
+    margin: 0%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto:wght@100', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family: 'Roboto:wght@100', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 15px;
+}
+
+footer {
+    position:relative;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    bottom:0;
+    width:100%;
+    height:20px;  
+    background:#1D1D1D;
+    color: white;
+}
+
+.separator{
+	width: 100px;
+	height: 1px;
+	margin: 5px auto;
+    margin-bottom: 50px;
+	display: block;
+	background: #999999;
+}
+
+.contener{
+    width: 65%;
+	margin: auto;
+}
+
+.center{
+    text-align: center;
+    margin: 30px;
+}
+
+.bg{
+    width: 80%;
+    margin: auto;
+    background-color: #5a5a5a;
+}
+
+.img{
+    display: block;
+    height: 40px;
+    margin: auto;
+}
+
+.image-rognage{
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imgindex{
+    width: 100%;
+}
+
+.img-orientation{
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+
+.image-rognage2{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
